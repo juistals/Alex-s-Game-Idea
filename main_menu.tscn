@@ -1,3 +1,5 @@
 [gd_scene format=3 uid="uid://bye1lfla0ml10"]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="CanvasModulate" type="CanvasModulate" parent="."]
