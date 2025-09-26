@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://daxxhu3gvbh5p"]
+
+[ext_resource type="Script" uid="uid://g07f2gdybyx5" path="res://v_box_container.gd" id="1_7mewq"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_left = 516.0
+offset_top = 204.0
+offset_right = 665.0
+offset_bottom = 319.0
+script = ExtResource("1_7mewq")
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "START"
+
+[node name="Button2" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 6
+text = "OPTION"
+
+[node name="Button3" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "QUIT"
+
+[connection signal="pressed" from="VBoxContainer/Button" to="VBoxContainer" method="_on_button_pressed"]
+[connection signal="button_up" from="VBoxContainer/Button2" to="VBoxContainer" method="_on_button_2_button_up"]
