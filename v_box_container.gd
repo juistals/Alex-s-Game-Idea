@@ -13,7 +13,7 @@ func _process(delta: float) -> void:
 
 
 func _on_button_pressed() -> void:
-	pass # Replace  with function body
+	get_tree().change_scene_to_file("") # Replace  with function body
 
 
 func _on_button_2_button_up() -> void:

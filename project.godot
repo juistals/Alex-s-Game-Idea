@@ -11,7 +11,6 @@ config_version=5
 [application]
 
 config/name="Alex's Game Idea"
-run/main_scene="res://main_menu.tscn"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
