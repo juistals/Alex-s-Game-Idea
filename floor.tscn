@@ -1,7 +1,0 @@
-[gd_scene format=3 uid="uid://bf2aj1y3qhj7i"]
-
-[node name="Node3D" type="Node3D"]
-
-[node name="StaticBody3D" type="StaticBody3D" parent="."]
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
