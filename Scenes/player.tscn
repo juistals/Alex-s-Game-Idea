@@ -1,7 +1,7 @@
 [gd_scene load_steps=21 format=3 uid="uid://bhdeqwox2lu0q"]
 
+[ext_resource type="Script" uid="uid://sp5qks4i7l6a" path="res://scripts/player.gd" id="1_cvnsp"]
 [ext_resource type="Texture2D" uid="uid://bqivtnypexqmk" path="res://extrastuff/AnimationSheet_Character.png" id="1_f50pn"]
-[ext_resource type="Script" uid="uid://cyjjj5anf6sip" path="res://scripts/player.gd" id="1_ij6vw"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ij6vw"]
 atlas = ExtResource("1_f50pn")
@@ -137,16 +137,15 @@ animations = [{
 radius = 6.08276
 
 [node name="player" type="CharacterBody2D"]
-script = ExtResource("1_ij6vw")
+script = ExtResource("1_cvnsp")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_1kp85")
-animation = &"move"
-frame = 3
-frame_progress = 0.5362137
+animation = &"blink"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 5)
 shape = SubResource("CircleShape2D_qnedo")
 
-[node name="Node2D" type="Node2D" parent="."]
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(3, 3)
