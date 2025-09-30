@@ -2,22 +2,24 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8ydu05q1k02j"
-path="res://.godot/imported/TX Shadow Plant.png-4701bc454f75d56554ecf386b0079ac9.ctex"
+uid="uid://6ge7kocva7cq"
+path="res://.godot/imported/TX Props.png-9cd26251f609a0f3c416493863359539.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Texture/TX Shadow Plant.png"
-dest_files=["res://.godot/imported/TX Shadow Plant.png-4701bc454f75d56554ecf386b0079ac9.ctex"]
+source_file="res://resources/Pixel Art Top Down - Basic v1.2.2/Texture/TX Props.png"
+dest_files=["res://.godot/imported/TX Props.png-9cd26251f609a0f3c416493863359539.ctex"]
 
 [params]
 
 compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
+compress/uastc_level=0
+compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
@@ -25,6 +27,10 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false
