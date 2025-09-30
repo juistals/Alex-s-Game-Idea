@@ -13,9 +13,12 @@ config_version=5
 config/name="Alex's Game Idea"
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 run/main_scene="uid://c8do5vplj764n"
 config/features=PackedStringArray("4.5", "Forward Plus")
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 run/main_scene="uid://dwhjx8blcuobl"
