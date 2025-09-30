@@ -5,7 +5,6 @@ extends Control
 func _ready():
 	$VboxContainer/Start_Button.grab_focus
 
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass # Replace the function body
@@ -13,7 +12,7 @@ func _process(delta: float) -> void:
 
 
 func _on_button_pressed() -> void:
-	get_tree().change_scene_to_file("") # Replace  with function body
+	get_tree().change_scene_to_file("res://main menu.tscn") # Replace  with function body
 
 
 func _on_Options_pressed() -> void:
