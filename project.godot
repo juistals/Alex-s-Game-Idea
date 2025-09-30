@@ -11,9 +11,8 @@ config_version=5
 [application]
 
 config/name="Alex's Game Idea"
-run/main_scene="uid://dte0iio1n3t3y"
-config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+run/main_scene="uid://c8do5vplj764n"
+config/features=PackedStringArray("4.5", "Forward Plus")
 
 [input]
 
