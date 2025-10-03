@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://cm1q3w6dw0auy"]
 
-[ext_resource type="Texture2D" uid="uid://bsu0arqso4kje" path="res://Pixel Art Top Down - Basic v1.2.2/Texture/TX Tileset Grass.png" id="1_1mf5u"]
+[ext_resource type="Texture2D" uid="uid://bsu0arqso4kje" path="res://resources/Pixel Art Top Down - Basic v1.2.2/Texture/TX Tileset Grass.png" id="1_1mf5u"]
 [ext_resource type="PackedScene" uid="uid://bhdeqwox2lu0q" path="res://Scenes/player.tscn" id="2_2xbvg"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tq727"]
