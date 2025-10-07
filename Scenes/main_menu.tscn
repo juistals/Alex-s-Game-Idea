@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://c8do5vplj764n"]
 
-[ext_resource type="Script" uid="uid://dgxs1s5lkkg18" path="res://Scenes/main_menu.gd" id="1_48xlc"]
+[ext_resource type="Script" uid="uid://dgxs1s5lkkg18" path="res://scripts/main_menu.gd" id="1_48xlc"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -33,5 +33,11 @@ layout_mode = 2
 size_flags_vertical = 3
 text = "QUIT"
 
-[connection signal="pressed" from="VBoxContainer/Button" to="VBoxContainer" method="_on_button_pressed"]
+[node name="Camera2D" type="Camera2D" parent="VBoxContainer"]
+position = Vector2(74, 52)
+zoom = Vector2(2, 2)
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]
 [connection signal="button_up" from="VBoxContainer/Button2" to="VBoxContainer" method="_on_button_2_button_up"]
+[connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button3" to="." method="_on_button_3_pressed"]
