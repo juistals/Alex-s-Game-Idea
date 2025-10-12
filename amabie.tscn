@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://dqpan2yc732b6"]
+
+[ext_resource type="Texture2D" uid="uid://bae4y344yxv1o" path="res://Untitled design (10).png" id="1_rv3mn"]
+[ext_resource type="PackedScene" uid="uid://lytssdcb3sff" path="res://killzone.tscn" id="2_4bjhp"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rv3mn"]
+radius = 141.79109
+height = 597.01514
+
+[node name="Amabie" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(13.749998, 11.749998)
+scale = Vector2(0.18100001, 0.18100001)
+texture = ExtResource("1_rv3mn")
+
+[node name="Killzone" parent="." instance=ExtResource("2_4bjhp")]
+position = Vector2(0.50000787, -0.49999732)
+scale = Vector2(0.13399999, 0.13399999)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
+position = Vector2(100.74622, 93.28357)
+scale = Vector2(0.99999994, 0.99999994)
+shape = SubResource("CapsuleShape2D_rv3mn")

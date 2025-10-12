@@ -137,13 +137,16 @@ animations = [{
 radius = 6.08276
 
 [node name="player" type="CharacterBody2D"]
+disable_mode = 2
+slide_on_ceiling = false
 script = ExtResource("1_cvnsp")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_1kp85")
 animation = &"blink"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="PlayerCollisionShape" type="CollisionShape2D" parent="."]
+unique_name_in_owner = true
 position = Vector2(0, 5)
 shape = SubResource("CircleShape2D_qnedo")
 
