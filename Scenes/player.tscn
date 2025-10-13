@@ -133,8 +133,9 @@ animations = [{
 "speed": 10.0
 }]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_qnedo"]
-radius = 6.08276
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_cvnsp"]
+radius = 7.0
+height = 28.0
 
 [node name="player" type="CharacterBody2D"]
 disable_mode = 2
@@ -147,8 +148,8 @@ animation = &"blink"
 
 [node name="PlayerCollisionShape" type="CollisionShape2D" parent="."]
 unique_name_in_owner = true
-position = Vector2(0, 5)
-shape = SubResource("CircleShape2D_qnedo")
+position = Vector2(-1, 2)
+shape = SubResource("CapsuleShape2D_cvnsp")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(3, 3)

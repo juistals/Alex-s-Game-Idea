@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://dqpan2yc732b6"]
 
-[ext_resource type="Texture2D" uid="uid://bae4y344yxv1o" path="res://Untitled design (10).png" id="1_rv3mn"]
-[ext_resource type="PackedScene" uid="uid://lytssdcb3sff" path="res://killzone.tscn" id="2_4bjhp"]
+[ext_resource type="Texture2D" uid="uid://bae4y344yxv1o" path="res://resources/somestuff/enemies/Untitled design (10).png" id="1_rv3mn"]
+[ext_resource type="PackedScene" uid="uid://lytssdcb3sff" path="res://Scenes/killzone.tscn" id="2_4bjhp"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rv3mn"]
 radius = 141.79109
