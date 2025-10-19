@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://b454kdxeyt84s"]
+
+[ext_resource type="Script" uid="uid://dwid5aw6qju38" path="res://language.gd" id="1_t5yah"]
+
+[node name="Language" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_t5yah")

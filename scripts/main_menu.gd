@@ -9,8 +9,8 @@ func _on_button_pressed():
 
 
 func _on_button_2_pressed():
-	var options = load("res://main_menu1.tscn"). instance()
-	get_tree().current_scene.add_child(options)
+	get_tree().change_scene_to_file("res://options.tscn") 
+
 
  
 func _on_button_3_pressed():

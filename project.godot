@@ -41,6 +41,10 @@ right={
 ]
 }
 
+[internationalization]
+
+locale/translations=PackedStringArray("res://Scenes/Translation - Sheet1.Japanese.translation", "res://Scenes/Translation - Sheet1.englsih.translation")
+
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
