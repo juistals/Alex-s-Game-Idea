@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://cre13h2ptmh1s"]
+
+[ext_resource type="Texture2D" uid="uid://duyfn6jfpt55y" path="res://Health/ui/heart_ui_empty.png" id="1_8t2sd"]
+[ext_resource type="Texture2D" uid="uid://cmujd8s1lega3" path="res://Health/ui/heart_ui_full.png" id="2_pca1g"]
+
+[node name="HeartsUI" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 14.0
+offset_bottom = 16.0
+
+[node name="EmptyHearts" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 15.0
+offset_bottom = 11.0
+texture = ExtResource("1_8t2sd")
+stretch_mode = 1
+
+[node name="FullHearts" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 15.0
+offset_bottom = 11.0
+texture = ExtResource("2_pca1g")
+stretch_mode = 1
