@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://cre13h2ptmh1s"]
+[gd_scene load_steps=3 format=3 uid="uid://dgs4uprnpqsy7"]
 
 [ext_resource type="Texture2D" uid="uid://duyfn6jfpt55y" path="res://Health/ui/heart_ui_empty.png" id="1_8t2sd"]
 [ext_resource type="Texture2D" uid="uid://cmujd8s1lega3" path="res://Health/ui/heart_ui_full.png" id="2_pca1g"]

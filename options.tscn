@@ -58,3 +58,4 @@ text = "Back"
 
 [connection signal="value_changed" from="MarginContainer/VBoxContainer/Volume" to="." method="_on_volume_value_changed"]
 [connection signal="toggled" from="MarginContainer/VBoxContainer/Mut_lab" to="." method="_on_mut_lab_toggled"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
