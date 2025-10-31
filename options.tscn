@@ -41,5 +41,20 @@ layout_mode = 2
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(191, 106)
+zoom = Vector2(3, 3)
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -22.5
+offset_right = 22.5
+offset_bottom = 31.0
+grow_horizontal = 2
+text = "Back"
+
 [connection signal="value_changed" from="MarginContainer/VBoxContainer/Volume" to="." method="_on_volume_value_changed"]
 [connection signal="toggled" from="MarginContainer/VBoxContainer/Mut_lab" to="." method="_on_mut_lab_toggled"]
