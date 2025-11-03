@@ -2,16 +2,12 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cdfigrm776gpm"
-path="res://.godot/imported/Farm.png-9cf29c29fc3fc5fd433542d22a04b801.ctex"
-metadata={
-"vram_texture": false
-}
+uid="uid://d0811brxiebcy"
+valid=false
 
 [deps]
 
-source_file="res://Health/ui/Farm.png"
-dest_files=["res://.godot/imported/Farm.png-9cf29c29fc3fc5fd433542d22a04b801.ctex"]
+source_file="res://freeversion.png/__MACOSX/._freeversion.png"
 
 [params]
 

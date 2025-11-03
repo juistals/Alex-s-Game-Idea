@@ -1,4 +1,4 @@
-extends CharacterBody2D
+class_name Players extends CharacterBody2D
 
 var speed : float = 100.0
 var direction : Vector2

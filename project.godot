@@ -14,6 +14,10 @@ config/name="Alex's Game Idea"
 run/main_scene="uid://c8do5vplj764n"
 config/features=PackedStringArray("4.5", "Forward Plus")
 
+[autoload]
+
+GameManager="*res://Scenes/game_manager.tscn"
+
 [input]
 
 up={
