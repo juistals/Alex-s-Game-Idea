@@ -1,8 +1,44 @@
-[gd_resource type="Resource" script_class="DialogueGroup" load_steps=3 format=3 uid="uid://v8vxbd1so2j0"]
+[gd_resource type="Resource" script_class="DialogueGroup" load_steps=11 format=3 uid="uid://v8vxbd1so2j0"]
 
-[ext_resource type="Script" uid="uid://c6c7p7juawx06" path="res://scripts/dialogue.gd" id="1_25u72"]
-[ext_resource type="Script" uid="uid://gqbld04yuyat" path="res://scripts/dialogue_group.gd" id="2_i7jes"]
+[ext_resource type="Script" path="res://scripts/dialogue.gd" id="1_25u72"]
+[ext_resource type="Script" path="res://scripts/dialogue_group.gd" id="2_i7jes"]
+[ext_resource type="Texture2D" uid="uid://bd7q2ed3x2jw3" path="res://sprites/Pixel-Portraits-Free/Feminine_A/Feminine_A_angry.png" id="2_snesn"]
+[ext_resource type="Texture2D" uid="uid://dx2cwiopv57n1" path="res://sprites/Pixel-Portraits-Free/Masculine_A/Masculine_A_happy.png" id="3_5ab87"]
+[ext_resource type="Texture2D" uid="uid://byxlvym56uub3" path="res://sprites/Pixel-Portraits-Free/Feminine_B/Feminine_B_annoyed.png" id="4_tjgwe"]
+[ext_resource type="Texture2D" uid="uid://b11qgnmvrrlmi" path="res://sprites/Pixel-Portraits-Free/Masculine_B/Masculine_B_happy.png" id="5_tg508"]
+
+[sub_resource type="Resource" id="Resource_ej2qq"]
+script = ExtResource("1_25u72")
+character_name = "Chara1"
+content = "Dia1"
+avatar = ExtResource("2_snesn")
+metadata/_custom_type_script = "uid://c6c7p7juawx06"
+
+[sub_resource type="Resource" id="Resource_h47i2"]
+script = ExtResource("1_25u72")
+character_name = "Chara2"
+content = "Dia2"
+avatar = ExtResource("3_5ab87")
+show_on_left = true
+metadata/_custom_type_script = "uid://c6c7p7juawx06"
+
+[sub_resource type="Resource" id="Resource_e0vrx"]
+script = ExtResource("1_25u72")
+character_name = "Chara3"
+content = "Dia3
+"
+avatar = ExtResource("4_tjgwe")
+metadata/_custom_type_script = "uid://c6c7p7juawx06"
+
+[sub_resource type="Resource" id="Resource_53ohp"]
+script = ExtResource("1_25u72")
+character_name = "Chara4"
+content = "Dia4
+"
+avatar = ExtResource("5_tg508")
+show_on_left = true
+metadata/_custom_type_script = "uid://c6c7p7juawx06"
 
 [resource]
 script = ExtResource("2_i7jes")
-metadata/_custom_type_script = "uid://gqbld04yuyat"
+dialogue_list = Array[ExtResource("1_25u72")]([SubResource("Resource_ej2qq"), SubResource("Resource_h47i2"), SubResource("Resource_e0vrx"), SubResource("Resource_53ohp")])

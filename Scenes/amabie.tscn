@@ -1,11 +1,176 @@
-[gd_scene load_steps=4 format=3 uid="uid://dqpan2yc732b6"]
+[gd_scene load_steps=43 format=3 uid="uid://blx6dwuqm40cp"]
 
 [ext_resource type="Texture2D" uid="uid://bae4y344yxv1o" path="res://resources/somestuff/enemies/Untitled design (10).png" id="1_rv3mn"]
-[ext_resource type="PackedScene" uid="uid://lytssdcb3sff" path="res://Scenes/killzone.tscn" id="2_4bjhp"]
+[ext_resource type="PackedScene" path="res://Scenes/killzone.tscn" id="2_4bjhp"]
+[ext_resource type="Texture2D" uid="uid://w82rstfmo2jf" path="res://resources/amabie movements/idle-frames/frame_001.png" id="3_criat"]
+[ext_resource type="Texture2D" uid="uid://b3gq4senhmod2" path="res://resources/amabie movements/idle-frames/frame_002.png" id="4_g3qis"]
+[ext_resource type="Texture2D" uid="uid://bgoujrtx0ltr2" path="res://resources/amabie movements/idle-frames/frame_003.png" id="5_vrixi"]
+[ext_resource type="Texture2D" uid="uid://lfedij863fde" path="res://resources/amabie movements/idle-frames/frame_004.png" id="6_4irpo"]
+[ext_resource type="Texture2D" uid="uid://bk5vpj6aw0ano" path="res://resources/amabie movements/idle-frames/frame_005.png" id="7_tb5ps"]
+[ext_resource type="Texture2D" uid="uid://b0cv1ik13irv4" path="res://resources/amabie movements/idle-frames/frame_006.png" id="8_t0b2q"]
+[ext_resource type="Texture2D" uid="uid://b18dur6ssouoq" path="res://resources/amabie movements/idle-frames/frame_007.png" id="9_jvxr1"]
+[ext_resource type="Texture2D" uid="uid://1axywo3j77ad" path="res://resources/amabie movements/idle-frames/frame_008.png" id="10_ig2r7"]
+[ext_resource type="Texture2D" uid="uid://bn23imm6nytjf" path="res://resources/amabie movements/idle-frames/frame_009.png" id="11_3a146"]
+[ext_resource type="Texture2D" uid="uid://bd7cnvek51ejm" path="res://resources/amabie movements/idle-frames/frame_010.png" id="12_a2uqb"]
+[ext_resource type="Texture2D" uid="uid://dk48e4u6r6gpx" path="res://resources/amabie movements/idle-frames/frame_011.png" id="13_r2ng0"]
+[ext_resource type="Texture2D" uid="uid://dxfqlr83h5713" path="res://resources/amabie movements/idle-frames/frame_012.png" id="14_lyq5s"]
+[ext_resource type="Texture2D" uid="uid://27alht1kq8s8" path="res://resources/amabie movements/idle-frames/frame_013.png" id="15_v3vrj"]
+[ext_resource type="Texture2D" uid="uid://c5xoyt1dgnhso" path="res://resources/amabie movements/idle-frames/frame_014.png" id="16_xwkae"]
+[ext_resource type="Texture2D" uid="uid://wpptu2ouj75y" path="res://resources/amabie movements/idle-frames/frame_015.png" id="17_bh7oj"]
+[ext_resource type="Texture2D" uid="uid://dka38clh6nfj5" path="res://resources/amabie movements/idle-frames/frame_016.png" id="18_wpwks"]
+[ext_resource type="Texture2D" uid="uid://5b1158qhvyle" path="res://resources/amabie movements/idle-frames/frame_017.png" id="19_rkapa"]
+[ext_resource type="Texture2D" uid="uid://dr14h2tje6w70" path="res://resources/amabie movements/idle-frames/frame_018.png" id="20_4ht2j"]
+[ext_resource type="Texture2D" uid="uid://snpqslliny5l" path="res://resources/amabie movements/idle-frames/frame_019.png" id="21_0a3n2"]
+[ext_resource type="Texture2D" uid="uid://coolv5sgct5fh" path="res://resources/amabie movements/idle-frames/frame_020.png" id="22_kedbp"]
+[ext_resource type="Texture2D" uid="uid://bsxm486vg7dtq" path="res://resources/amabie movements/idle-frames/frame_021.png" id="23_bf1v8"]
+[ext_resource type="Texture2D" uid="uid://4iy1ed5akcoy" path="res://resources/amabie movements/idle-frames/frame_022.png" id="24_6v3vj"]
+[ext_resource type="Texture2D" uid="uid://dqmuqdwsd68mh" path="res://resources/amabie movements/idle-frames/frame_023.png" id="25_ih7uu"]
+[ext_resource type="Texture2D" uid="uid://dvpfl38sero33" path="res://resources/amabie movements/idle-frames/frame_024.png" id="26_ys7c3"]
+[ext_resource type="Texture2D" uid="uid://ds0pwd1d6lbxr" path="res://resources/amabie movements/idle-frames/frame_025.png" id="27_kep11"]
+[ext_resource type="Texture2D" uid="uid://bo4innagfxqck" path="res://resources/amabie movements/idle-frames/frame_026.png" id="28_8oc5n"]
+[ext_resource type="Texture2D" uid="uid://bjm3k877blv6o" path="res://resources/amabie movements/idle-frames/frame_027.png" id="29_tfwre"]
+[ext_resource type="Texture2D" uid="uid://dtihtypag8t6w" path="res://resources/amabie movements/idle-frames/frame_028.png" id="30_vjg5g"]
+[ext_resource type="Texture2D" uid="uid://5j30xagelvm6" path="res://resources/amabie movements/idle-frames/frame_029.png" id="31_jvhxp"]
+[ext_resource type="Texture2D" uid="uid://wingr7ohtwta" path="res://resources/amabie movements/idle-frames/frame_030.png" id="32_wdod2"]
+[ext_resource type="Texture2D" uid="uid://c8hrurd8fctkm" path="res://resources/amabie movements/idle-frames/frame_031.png" id="33_up7oo"]
+[ext_resource type="Texture2D" uid="uid://glvsisqpf6xj" path="res://resources/amabie movements/idle-frames/frame_032.png" id="34_ioiwm"]
+[ext_resource type="Texture2D" uid="uid://70aogidixys4" path="res://resources/amabie movements/idle-frames/frame_033.png" id="35_ev5ek"]
+[ext_resource type="Texture2D" uid="uid://l6v18x1rp3bl" path="res://resources/amabie movements/idle-frames/frame_034.png" id="36_wan5u"]
+[ext_resource type="Texture2D" uid="uid://clxouupyxiagp" path="res://resources/amabie movements/idle-frames/frame_035.png" id="37_w6mwq"]
+[ext_resource type="Texture2D" uid="uid://dokq6xshk88kr" path="res://resources/amabie movements/idle-frames/frame_036.png" id="38_dt5ct"]
+[ext_resource type="Texture2D" uid="uid://bcx2k1s2i00cg" path="res://resources/amabie movements/idle-frames/frame_037.png" id="39_u88w3"]
+[ext_resource type="Texture2D" uid="uid://dn07gja7xa8ah" path="res://resources/amabie movements/idle-frames/frame_038.png" id="40_wjk0r"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rv3mn"]
 radius = 141.79109
 height = 597.01514
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gpgaw"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_criat")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_g3qis")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_vrixi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_4irpo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_tb5ps")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_t0b2q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_jvxr1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_ig2r7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_3a146")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_a2uqb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_r2ng0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_lyq5s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_v3vrj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_xwkae")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_bh7oj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_wpwks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_rkapa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_4ht2j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_0a3n2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_kedbp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_bf1v8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_6v3vj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_ih7uu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_ys7c3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_kep11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_8oc5n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_tfwre")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_vjg5g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_jvhxp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_wdod2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_up7oo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_ioiwm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_ev5ek")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_wan5u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_w6mwq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_dt5ct")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_u88w3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_wjk0r")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}]
 
 [node name="Amabie" type="Node2D"]
 
@@ -22,3 +187,8 @@ scale = Vector2(0.13399999, 0.13399999)
 position = Vector2(100.74622, 93.28357)
 scale = Vector2(0.99999994, 0.99999994)
 shape = SubResource("CapsuleShape2D_rv3mn")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_gpgaw")
+animation = &"new_animation"
+frame = 10
