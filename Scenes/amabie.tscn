@@ -1,7 +1,7 @@
 [gd_scene load_steps=43 format=3 uid="uid://blx6dwuqm40cp"]
 
 [ext_resource type="Texture2D" uid="uid://bae4y344yxv1o" path="res://resources/somestuff/enemies/Untitled design (10).png" id="1_rv3mn"]
-[ext_resource type="PackedScene" path="res://Scenes/killzone.tscn" id="2_4bjhp"]
+[ext_resource type="PackedScene" uid="uid://lytssdcb3sff" path="res://Scenes/killzone.tscn" id="2_4bjhp"]
 [ext_resource type="Texture2D" uid="uid://w82rstfmo2jf" path="res://resources/amabie movements/idle-frames/frame_001.png" id="3_criat"]
 [ext_resource type="Texture2D" uid="uid://b3gq4senhmod2" path="res://resources/amabie movements/idle-frames/frame_002.png" id="4_g3qis"]
 [ext_resource type="Texture2D" uid="uid://bgoujrtx0ltr2" path="res://resources/amabie movements/idle-frames/frame_003.png" id="5_vrixi"]
@@ -41,11 +41,8 @@
 [ext_resource type="Texture2D" uid="uid://bcx2k1s2i00cg" path="res://resources/amabie movements/idle-frames/frame_037.png" id="39_u88w3"]
 [ext_resource type="Texture2D" uid="uid://dn07gja7xa8ah" path="res://resources/amabie movements/idle-frames/frame_038.png" id="40_wjk0r"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rv3mn"]
-radius = 141.79109
-height = 597.01514
-
 [sub_resource type="SpriteFrames" id="SpriteFrames_gpgaw"]
+resource_local_to_scene = true
 animations = [{
 "frames": [],
 "loop": true,
@@ -72,34 +69,31 @@ animations = [{
 "texture": ExtResource("8_t0b2q")
 }, {
 "duration": 1.0,
-"texture": ExtResource("9_jvxr1")
+"texture": ExtResource("10_ig2r7")
 }, {
 "duration": 1.0,
-"texture": ExtResource("10_ig2r7")
+"texture": ExtResource("9_jvxr1")
 }, {
 "duration": 1.0,
 "texture": ExtResource("11_3a146")
 }, {
 "duration": 1.0,
-"texture": ExtResource("12_a2uqb")
-}, {
-"duration": 1.0,
 "texture": ExtResource("13_r2ng0")
 }, {
 "duration": 1.0,
-"texture": ExtResource("14_lyq5s")
+"texture": ExtResource("12_a2uqb")
 }, {
 "duration": 1.0,
 "texture": ExtResource("15_v3vrj")
 }, {
 "duration": 1.0,
-"texture": ExtResource("16_xwkae")
+"texture": ExtResource("14_lyq5s")
 }, {
 "duration": 1.0,
 "texture": ExtResource("17_bh7oj")
 }, {
 "duration": 1.0,
-"texture": ExtResource("18_wpwks")
+"texture": ExtResource("16_xwkae")
 }, {
 "duration": 1.0,
 "texture": ExtResource("19_rkapa")
@@ -108,13 +102,16 @@ animations = [{
 "texture": ExtResource("20_4ht2j")
 }, {
 "duration": 1.0,
+"texture": ExtResource("18_wpwks")
+}, {
+"duration": 1.0,
 "texture": ExtResource("21_0a3n2")
 }, {
 "duration": 1.0,
-"texture": ExtResource("22_kedbp")
+"texture": ExtResource("23_bf1v8")
 }, {
 "duration": 1.0,
-"texture": ExtResource("23_bf1v8")
+"texture": ExtResource("22_kedbp")
 }, {
 "duration": 1.0,
 "texture": ExtResource("24_6v3vj")
@@ -124,9 +121,6 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": ExtResource("26_ys7c3")
-}, {
-"duration": 1.0,
-"texture": ExtResource("27_kep11")
 }, {
 "duration": 1.0,
 "texture": ExtResource("28_8oc5n")
@@ -159,6 +153,9 @@ animations = [{
 "texture": ExtResource("37_w6mwq")
 }, {
 "duration": 1.0,
+"texture": ExtResource("27_kep11")
+}, {
+"duration": 1.0,
 "texture": ExtResource("38_dt5ct")
 }, {
 "duration": 1.0,
@@ -172,12 +169,17 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rv3mn"]
+radius = 141.79109
+height = 597.01514
+
 [node name="Amabie" type="Node2D"]
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(13.749998, 11.749998)
-scale = Vector2(0.18100001, 0.18100001)
-texture = ExtResource("1_rv3mn")
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.181, 0.181)
+sprite_frames = SubResource("SpriteFrames_gpgaw")
+animation = &"new_animation"
+offset = Vector2(13.75, 11.75)
 
 [node name="Killzone" parent="." instance=ExtResource("2_4bjhp")]
 position = Vector2(0.50000787, -0.49999732)
@@ -188,7 +190,7 @@ position = Vector2(100.74622, 93.28357)
 scale = Vector2(0.99999994, 0.99999994)
 shape = SubResource("CapsuleShape2D_rv3mn")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-sprite_frames = SubResource("SpriteFrames_gpgaw")
-animation = &"new_animation"
-frame = 10
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(13.749998, 11.749998)
+scale = Vector2(0.18100001, 0.18100001)
+texture = ExtResource("1_rv3mn")

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://llppl2q8nkj7"
-path="res://.godot/imported/Feminine_B-surprised.png-e701eb6c7b4d6caf73797e5f3b5df228.ctex"
+path="res://.godot/imported/Feminine_B-surprised.png-6df8a094c2425f05bc43bffa01da0f3e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Pixel-Portraits-Free/Feminine_B/Feminine_B-surprised.png"
-dest_files=["res://.godot/imported/Feminine_B-surprised.png-e701eb6c7b4d6caf73797e5f3b5df228.ctex"]
+source_file="res://Sprites/Pixel-Portraits-Free/Feminine_B/Feminine_B-surprised.png"
+dest_files=["res://.godot/imported/Feminine_B-surprised.png-6df8a094c2425f05bc43bffa01da0f3e.ctex"]
 
 [params]
 

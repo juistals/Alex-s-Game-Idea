@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ci1o8mamwe7uq"
-path="res://.godot/imported/Glasses_C.png-e511d161a3fc5f32dfa6c194af59dd81.ctex"
+path="res://.godot/imported/Glasses_C.png-990201d09c9226243740377da3c60056.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Pixel-Portraits-Free/Accessories/Glasses_C.png"
-dest_files=["res://.godot/imported/Glasses_C.png-e511d161a3fc5f32dfa6c194af59dd81.ctex"]
+source_file="res://Sprites/Pixel-Portraits-Free/Accessories/Glasses_C.png"
+dest_files=["res://.godot/imported/Glasses_C.png-990201d09c9226243740377da3c60056.ctex"]
 
 [params]
 
