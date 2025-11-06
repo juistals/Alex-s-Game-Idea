@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://bhdeqwox2lu0q"]
+[gd_scene load_steps=5 format=3 uid="uid://bhdeqwox2lu0q"]
 
 [ext_resource type="Script" uid="uid://sp5qks4i7l6a" path="res://scripts/player.gd" id="1_cvnsp"]
+[ext_resource type="Texture2D" uid="uid://bt2d5u2tgd0o5" path="res://resources/somestuff/shadows/large_shadow.png" id="2_6t5aa"]
 [ext_resource type="Texture2D" uid="uid://blxyu8vyf5c8n" path="res://Scenes/Untitled design.png" id="2_cvnsp"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_cvnsp"]
@@ -12,14 +13,19 @@ disable_mode = 2
 slide_on_ceiling = false
 script = ExtResource("1_cvnsp")
 
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(4.5, 18.000002)
+scale = Vector2(0.53125, 0.40163967)
+texture = ExtResource("2_6t5aa")
+
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(3, 3)
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(-1, 1.1920929e-07)
-scale = Vector2(0.013675976, 0.013116946)
-texture = ExtResource("2_cvnsp")
 
 [node name="PlayerCollisionShape" type="CollisionShape2D" parent="."]
 position = Vector2(0, 4)
 shape = SubResource("CapsuleShape2D_cvnsp")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1, 1.9073486e-06)
+scale = Vector2(0.013675976, 0.0131169455)
+texture = ExtResource("2_cvnsp")
