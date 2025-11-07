@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://maofwm4ao00y"
-path="res://.godot/imported/Feminine_A_annoyed.png-d1643c14f40f9eecaa7520e08e743581.ctex"
+path="res://.godot/imported/Feminine_A_annoyed.png-c7c36c299c609fc91da6b1c89a30a926.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Pixel-Portraits-Free/Feminine_A/Feminine_A_annoyed.png"
-dest_files=["res://.godot/imported/Feminine_A_annoyed.png-d1643c14f40f9eecaa7520e08e743581.ctex"]
+source_file="res://Sprites/Pixel-Portraits-Free/Feminine_A/Feminine_A_annoyed.png"
+dest_files=["res://.godot/imported/Feminine_A_annoyed.png-c7c36c299c609fc91da6b1c89a30a926.ctex"]
 
 [params]
 

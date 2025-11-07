@@ -1,89 +1,49 @@
-[gd_resource type="Resource" script_class="DialogueGroup" load_steps=15 format=3 uid="uid://v8vxbd1so2j0"]
+[gd_resource type="Resource" script_class="DialogueGroup" load_steps=11 format=3 uid="uid://v8vxbd1so2j0"]
 
 [ext_resource type="Script" uid="uid://c6c7p7juawx06" path="res://scripts/dialogue.gd" id="1_25u72"]
 [ext_resource type="Script" uid="uid://gqbld04yuyat" path="res://scripts/dialogue_group.gd" id="2_i7jes"]
+<<<<<<< HEAD
 [ext_resource type="Texture2D" uid="uid://ky6ed5w1ioa5" path="res://Document for putting  (2).png" id="2_snesn"]
 [ext_resource type="Texture2D" uid="uid://c46rt1kdxlfv3" path="res://sato (2).png" id="3_pchma"]
+=======
+[ext_resource type="Texture2D" uid="uid://bd7q2ed3x2jw3" path="res://Sprites/Pixel-Portraits-Free/Feminine_A/Feminine_A_angry.png" id="2_snesn"]
+[ext_resource type="Texture2D" uid="uid://dx2cwiopv57n1" path="res://Sprites/Pixel-Portraits-Free/Masculine_A/Masculine_A_happy.png" id="3_5ab87"]
+[ext_resource type="Texture2D" uid="uid://byxlvym56uub3" path="res://Sprites/Pixel-Portraits-Free/Feminine_B/Feminine_B_annoyed.png" id="4_tjgwe"]
+[ext_resource type="Texture2D" uid="uid://b11qgnmvrrlmi" path="res://Sprites/Pixel-Portraits-Free/Masculine_B/Masculine_B_happy.png" id="5_tg508"]
+>>>>>>> a7740aef2de49d79c8a30a814d9a9e52150deebc
 
 [sub_resource type="Resource" id="Resource_ej2qq"]
 script = ExtResource("1_25u72")
-character_name = "Reiko"
-content = "Mr. Sato... what happened?"
+character_name = "Chara1"
+content = "Dialog12345928iqutwsiu"
 avatar = ExtResource("2_snesn")
 metadata/_custom_type_script = "uid://c6c7p7juawx06"
 
 [sub_resource type="Resource" id="Resource_h47i2"]
 script = ExtResource("1_25u72")
-character_name = "Mr. Sato"
-content = "It all started with the new visitors a week ago. "
-avatar = ExtResource("3_pchma")
+character_name = "Chara2"
+content = "Dia22iuejwhdsiuj"
+avatar = ExtResource("3_5ab87")
 show_on_left = true
 metadata/_custom_type_script = "uid://c6c7p7juawx06"
 
 [sub_resource type="Resource" id="Resource_e0vrx"]
 script = ExtResource("1_25u72")
-character_name = "Mr. Sato"
-content = "They brought some trinkets, claiming they were gifts from this land."
-avatar = ExtResource("3_pchma")
-show_on_left = true
+character_name = "Chara3"
+content = "Dia32iuewhdsiu
+"
+avatar = ExtResource("4_tjgwe")
 metadata/_custom_type_script = "uid://c6c7p7juawx06"
 
 [sub_resource type="Resource" id="Resource_53ohp"]
 script = ExtResource("1_25u72")
-character_name = "Mr. Sato"
-content = "They were friendly and did business with us. One of them gave my grandson a strange little figurine.
+character_name = "Chara4"
+content = "Dia4iuwgdshi
 "
-avatar = ExtResource("3_pchma")
-show_on_left = true
-metadata/_custom_type_script = "uid://c6c7p7juawx06"
-
-[sub_resource type="Resource" id="Resource_nrjak"]
-script = ExtResource("1_25u72")
-character_name = "Mr. Sato"
-content = "He thought it was an interesting-looking fish, so he placed it by the edge of a field for good luck."
-avatar = ExtResource("3_pchma")
-show_on_left = true
-metadata/_custom_type_script = "uid://c6c7p7juawx06"
-
-[sub_resource type="Resource" id="Resource_pchma"]
-script = ExtResource("1_25u72")
-character_name = "Reiko"
-content = "How is it connected?"
-avatar = ExtResource("2_snesn")
-metadata/_custom_type_script = "uid://c6c7p7juawx06"
-
-[sub_resource type="Resource" id="Resource_snesn"]
-script = ExtResource("1_25u72")
-character_name = "Mr. Sato"
-content = "How is it connected? Well, there was a strange legend on this island."
-avatar = ExtResource("3_pchma")
-show_on_left = true
-metadata/_custom_type_script = "uid://c6c7p7juawx06"
-
-[sub_resource type="Resource" id="Resource_5ab87"]
-script = ExtResource("1_25u72")
-character_name = "Mr. Sato"
-content = "Long time ago, someone witnessed a strange creature attacking people from the seashore."
-avatar = ExtResource("3_pchma")
-show_on_left = true
-metadata/_custom_type_script = "uid://c6c7p7juawx06"
-
-[sub_resource type="Resource" id="Resource_tjgwe"]
-script = ExtResource("1_25u72")
-character_name = "Mr. Sato"
-content = "Although that happened a long time ago, strange things have been happening again since the new visitors brought the trinkets..."
-avatar = ExtResource("3_pchma")
-show_on_left = true
-metadata/_custom_type_script = "uid://c6c7p7juawx06"
-
-[sub_resource type="Resource" id="Resource_tg508"]
-script = ExtResource("1_25u72")
-character_name = "Mr. Sato"
-content = "Though, I don't know much about it... Maybe you could ask the townspeople? "
-avatar = ExtResource("3_pchma")
+avatar = ExtResource("5_tg508")
 show_on_left = true
 metadata/_custom_type_script = "uid://c6c7p7juawx06"
 
 [resource]
 script = ExtResource("2_i7jes")
-dialogue_list = Array[ExtResource("1_25u72")]([SubResource("Resource_ej2qq"), SubResource("Resource_h47i2"), SubResource("Resource_e0vrx"), SubResource("Resource_53ohp"), SubResource("Resource_nrjak"), SubResource("Resource_pchma"), SubResource("Resource_snesn"), SubResource("Resource_5ab87"), SubResource("Resource_tjgwe"), SubResource("Resource_tg508")])
+dialogue_list = Array[ExtResource("1_25u72")]([SubResource("Resource_ej2qq"), SubResource("Resource_h47i2"), SubResource("Resource_e0vrx"), SubResource("Resource_53ohp")])

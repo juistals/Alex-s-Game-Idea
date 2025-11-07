@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1yy4wqgxcq31"
-path="res://.godot/imported/Hair_B_masculine_B-base.png-1f31fe6797a5a5278c4993b92c9a4600.ctex"
+path="res://.godot/imported/Hair_B_masculine_B-base.png-a1f8a046ce04d5392f8c5512d086e875.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Pixel-Portraits-Free/Masculine_B/Hair_B_masculine_B-base.png"
-dest_files=["res://.godot/imported/Hair_B_masculine_B-base.png-1f31fe6797a5a5278c4993b92c9a4600.ctex"]
+source_file="res://Sprites/Pixel-Portraits-Free/Masculine_B/Hair_B_masculine_B-base.png"
+dest_files=["res://.godot/imported/Hair_B_masculine_B-base.png-a1f8a046ce04d5392f8c5512d086e875.ctex"]
 
 [params]
 

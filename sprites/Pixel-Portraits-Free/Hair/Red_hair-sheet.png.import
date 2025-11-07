@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cx7htmibl3qdc"
-path="res://.godot/imported/Red_hair-sheet.png-684df19f9bbd108766c64ccf8bc2d1db.ctex"
+path="res://.godot/imported/Red_hair-sheet.png-78a4e6d3b515908a5b996d696aa996de.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Pixel-Portraits-Free/Hair/Red_hair-sheet.png"
-dest_files=["res://.godot/imported/Red_hair-sheet.png-684df19f9bbd108766c64ccf8bc2d1db.ctex"]
+source_file="res://Sprites/Pixel-Portraits-Free/Hair/Red_hair-sheet.png"
+dest_files=["res://.godot/imported/Red_hair-sheet.png-78a4e6d3b515908a5b996d696aa996de.ctex"]
 
 [params]
 

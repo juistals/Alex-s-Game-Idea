@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b8lnuxh2wk5h6"
-path="res://.godot/imported/Beard_D_masculine_A-base.png-dbffe1f4de57dda334ebd29f91f9d4d6.ctex"
+path="res://.godot/imported/Beard_D_masculine_A-base.png-41116620412280de9bad787e202a7bc5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Pixel-Portraits-Free/Masculine_A/Beard_D_masculine_A-base.png"
-dest_files=["res://.godot/imported/Beard_D_masculine_A-base.png-dbffe1f4de57dda334ebd29f91f9d4d6.ctex"]
+source_file="res://Sprites/Pixel-Portraits-Free/Masculine_A/Beard_D_masculine_A-base.png"
+dest_files=["res://.godot/imported/Beard_D_masculine_A-base.png-41116620412280de9bad787e202a7bc5.ctex"]
 
 [params]
 
