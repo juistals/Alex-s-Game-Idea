@@ -1,0 +1,49 @@
+[gd_scene load_steps=8 format=3 uid="uid://djjsqx35i381v"]
+
+[ext_resource type="Script" uid="uid://bd57hxuvl1yea" path="res://chrysanthemum.gd" id="1_legm7"]
+[ext_resource type="Texture2D" uid="uid://cowtkbusgklv4" path="res://chrysanthemum.png" id="2_f5p75"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wbu65"]
+atlas = ExtResource("2_f5p75")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nrayf"]
+atlas = ExtResource("2_f5p75")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_enbhh"]
+atlas = ExtResource("2_f5p75")
+region = Rect2(0, 64, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_63j2k"]
+atlas = ExtResource("2_f5p75")
+region = Rect2(64, 64, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_uumyx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wbu65")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nrayf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_enbhh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_63j2k")
+}],
+"loop": false,
+"name": &"wilt",
+"speed": 1.0
+}]
+
+[node name="Chrysanthemum" type="Node2D" groups=["flowers"]]
+script = ExtResource("1_legm7")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.75, 0.75)
+sprite_frames = SubResource("SpriteFrames_uumyx")
+animation = &"wilt"
+frame_progress = 0.84680927

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dfcnji8yuqxq"
+path="res://.godot/imported/Screen Recording 2025-10-28 at 0.03.48.mp3-106d634bc437a645dfdf5d5bab63b311.mp3str"
+
+[deps]
+
+source_file="res://Audio/Screen Recording 2025-10-28 at 0.03.48.mp3"
+dest_files=["res://.godot/imported/Screen Recording 2025-10-28 at 0.03.48.mp3-106d634bc437a645dfdf5d5bab63b311.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4
