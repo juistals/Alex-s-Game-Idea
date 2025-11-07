@@ -8,6 +8,8 @@ extends Node2D
 @onready var quest_1: Quest = $"Flower wilt trigger/Quest1"
 @onready var label: Label = $Sato/Label
 @onready var animation_player: AnimationPlayer = $Sato/Label/AnimationPlayer
+@onready var fog: AudioStreamPlayer2D = $"Flower wilt trigger/Fog"
+@onready var bgm: AudioStreamPlayer2D = $BGM
 
 func _on_flower_wilt_trigger_body_entered(body: Node2D) -> void:
 	if body is Players:
@@ -15,10 +17,13 @@ func _on_flower_wilt_trigger_body_entered(body: Node2D) -> void:
 		timer_3.start(7)
 
 func _on_timer_1_timeout() -> void:
+	fog.play()
+	bgm.volume_db = -80
 	for flower in flowers:
 		flower.start_wilting()
 
 func _on_timer_3_timeout() -> void:
+	bgm.volume_db = +7
 	quest.finished_quest()
 	if quest_1.quest_status == quest.QuestStatus.available:
 		quest_1.start_quest()
