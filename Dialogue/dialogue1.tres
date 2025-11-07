@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="DialogueGroup" load_steps=11 format=3 uid="uid://v8vxbd1so2j0"]
 
-[ext_resource type="Script" path="res://themes/dialogue.gd" id="1_25u72"]
+[ext_resource type="Script" uid="uid://c6c7p7juawx06" path="res://scripts/dialogue.gd" id="1_25u72"]
 [ext_resource type="Script" uid="uid://gqbld04yuyat" path="res://scripts/dialogue_group.gd" id="2_i7jes"]
 [ext_resource type="Texture2D" uid="uid://bd7q2ed3x2jw3" path="res://Sprites/Pixel-Portraits-Free/Feminine_A/Feminine_A_angry.png" id="2_snesn"]
 [ext_resource type="Texture2D" uid="uid://dx2cwiopv57n1" path="res://Sprites/Pixel-Portraits-Free/Masculine_A/Masculine_A_happy.png" id="3_5ab87"]

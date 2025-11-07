@@ -1,7 +1,5 @@
 extends Area2D
 
-@onready var spawn_point = $"../SpawnPoint" 
-
-func _on_kill_zone_body_entered(body):
-	if body.name == "player":
-		body.global_position = spawn_point.global_position
+func _call_deferred(body):
+	body.get_node("PlayerCollisionShape").queue_free()
+	get_tree().reload_current_scene()
