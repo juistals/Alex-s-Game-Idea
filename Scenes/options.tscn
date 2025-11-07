@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://bcrkgtrvxd2wr"]
+[gd_scene load_steps=3 format=3 uid="uid://bcrkgtrvxd2wr"]
 
 [ext_resource type="Script" uid="uid://cveqf7m3ej0rt" path="res://scripts/options.gd" id="1_5v8ap"]
+
+[sub_resource type="AudioStream" id="AudioStream_prnvy"]
 
 [node name="Options" type="Control"]
 layout_mode = 3
@@ -40,6 +42,9 @@ text = "Mute"
 layout_mode = 2
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = SubResource("AudioStream_prnvy")
+volume_db = 0.145
+pitch_scale = 1.89
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(191, 106)
@@ -58,4 +63,5 @@ text = "Back"
 
 [connection signal="value_changed" from="MarginContainer/VBoxContainer/Volume" to="." method="_on_volume_value_changed"]
 [connection signal="toggled" from="MarginContainer/VBoxContainer/Mut_lab" to="." method="_on_mut_lab_toggled"]
+[connection signal="finished" from="AudioStreamPlayer2D" to="." method="_on_audio_stream_player_2d_finished"]
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
