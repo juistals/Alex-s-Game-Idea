@@ -5,7 +5,6 @@ extends Control
 @export var text_box : Label
 @export var left_avatar : TextureRect
 @export var right_avatar : TextureRect
-@onready var player: Players = $"../../player"
 
 @export_group("Dialogue")
 @export var main_dialogue : DialogueGroup
@@ -16,7 +15,6 @@ var typing_tween : Tween
 func display_next_dialogue():
 	if dialogue_index >= len(main_dialogue.dialogue_list):
 		visible = false
-		player.enable_movement()
 		return
 	
 	var dialogue := main_dialogue.dialogue_list[dialogue_index]
@@ -48,6 +46,7 @@ func append_character(character : String):
 func _ready():
 	display_next_dialogue()
 
+
 func _on_click(event):
-	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
+	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed:\
 		display_next_dialogue()

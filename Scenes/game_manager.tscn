@@ -188,7 +188,7 @@ texture = ExtResource("1_oj352")
 [sub_resource type="TileSet" id="TileSet_sq00h"]
 sources/0 = SubResource("TileSetAtlasSource_e5fcp")
 
-[node name="GameManager" type="Control"]
+[node name="Game manager" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -205,6 +205,7 @@ tile_map_data = PackedByteArray("AAADAAEAAAADAAkAAAAAAAAAAAAAAAgAAAAAAAEAAAAAAAk
 tile_set = SubResource("TileSet_sq00h")
 
 [node name="Quest title" type="RichTextLabel" parent="Quests"]
+anchors_preset = -1
 offset_left = 19.0
 offset_top = 12.0
 offset_right = 377.0
@@ -216,10 +217,10 @@ theme_override_font_sizes/bold_font_size = 16
 metadata/_edit_use_anchors_ = true
 
 [node name="Quest description" type="RichTextLabel" parent="Quests"]
-offset_left = 18.0
-offset_top = 46.0
-offset_right = 387.0
-offset_bottom = 142.0
+offset_left = 17.0
+offset_top = 63.0
+offset_right = 386.0
+offset_bottom = 159.0
 size_flags_horizontal = 4
 theme_override_colors/default_color = Color(0.65834004, 0.6583399, 0.6583399, 1)
 theme_override_fonts/normal_font = ExtResource("3_mmt5l")
