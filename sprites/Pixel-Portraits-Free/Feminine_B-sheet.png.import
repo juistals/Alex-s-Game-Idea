@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bx20r8adtb1v0"
-path="res://.godot/imported/Feminine_B-sheet.png-15153cddc6beeacd1ea556b8523bcc6a.ctex"
+path="res://.godot/imported/Feminine_B-sheet.png-b4ef5cd406d6351ca7aff04b3232661b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Pixel-Portraits-Free/Feminine_B-sheet.png"
-dest_files=["res://.godot/imported/Feminine_B-sheet.png-15153cddc6beeacd1ea556b8523bcc6a.ctex"]
+source_file="res://sprites/Pixel-Portraits-Free/Feminine_B-sheet.png"
+dest_files=["res://.godot/imported/Feminine_B-sheet.png-b4ef5cd406d6351ca7aff04b3232661b.ctex"]
 
 [params]
 
